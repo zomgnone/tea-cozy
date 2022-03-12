@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  /* text-align: center; */
+}
+
+#navbar {
+  display: flex;
+  min-height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+#navbar img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 10px;
+}
+
+#navbar ul li {
+  margin: 0 10px;
+}
+
+#navbar ul li a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.banner {
+  display: flex;
+  margin: 69px auto 0px;
+  height: 700px;
+  max-width: 1200px;
+  background-image: url('../images/img-mission-background.jpg');
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  min-width: 100%;
+}
+
+.banner-content h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-content h4 {
+  margin-bottom: 5px;
+}
