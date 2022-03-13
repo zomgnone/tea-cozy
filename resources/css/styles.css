@@ -8,7 +8,16 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  /* text-align: center; */
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Fixes page header overlaps in-page anchors */
+:target::before {
+  content: "";
+  display: block;
+  height: 69px; /* fixed header height*/
+  margin: -69px 0 0; /* negative fixed header height */
 }
 
 #navbar {
@@ -71,4 +80,76 @@ body {
 
 .banner-content h4 {
   margin-bottom: 5px;
+}
+
+#featured-tea {
+  max-width: 1000px;
+  margin: 75px auto 0;
+}
+
+#featured-tea h4 {
+  margin-top: 15px;
+}
+
+#tea-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.single-item {
+	margin: 10px 15px;
+}
+
+.single-item img {
+  height: 200px;
+  width: 300px;
+}
+
+#featured-tea .single-item h4 {
+  margin-top: 10px;
+}
+
+#locations {
+  height: 500px;
+  max-width: 1200px;
+  background-image: url('../images/img-locations-background.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 50px auto 0px;
+  min-height: 500px;
+  height: auto;
+}
+
+#locations h2 {
+  padding-top: 60px;
+}
+
+#locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#locations-container .location-item {
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+#locations-container .location-item h3 {
+  margin-top: 20px;
+}
+
+#locations-container .location-item p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lorem-ipsum-content {
+  margin-top: 200px;
 }
