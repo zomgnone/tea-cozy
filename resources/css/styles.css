@@ -78,7 +78,7 @@ body {
 
 #featured-tea {
   max-width: 1000px;
-  margin: 80px auto;
+  margin: 69px auto;
 }
 
 #featured-tea h4 {
@@ -104,6 +104,12 @@ body {
 
 #featured-tea .single-item h4 {
   margin-top: 10px;
+}
+
+/* Moving up this anchor div to fix navigation header covering the beginning of the section. */
+#locations-anchor {
+  position: absolute;
+  margin-top: -69px;
 }
 
 #locations {
