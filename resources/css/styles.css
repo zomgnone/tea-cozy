@@ -163,11 +163,6 @@ footer {
   margin-left: 20px;
 }
 
-.lorem-ipsum-content {
-  margin-top: 200px;
-}
-
-
 @media only screen and (max-width: 430px){
   #navbar img {
     height: 30px;
