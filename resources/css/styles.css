@@ -166,3 +166,20 @@ body {
 .lorem-ipsum-content {
   margin-top: 200px;
 }
+
+
+@media only screen and (max-width: 430px){
+  #navbar img {
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  #navbar ul {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  #navbar ul li {
+    margin: 0 5px;
+  }
+}
